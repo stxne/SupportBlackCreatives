@@ -1,0 +1,125 @@
+body, html{
+  background-color: black;
+  margin: 0px;
+}
+@font-face {
+   font-family: DigestiveTwo;
+   src: url(DigestiveDemo-Two.otf);
+}
+@font-face {
+   font-family: NeueMachina;
+   src: url(NeueMachina-Regular.otf);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  font-family:  NeueMachina;
+  padding: 50px 50px 0px 0px;
+  font-size: 30px;
+  color: #BFB3F2;
+}
+a {
+  text-decoration: none;
+  color:#BFB3F2;
+}
+
+.title{
+    float: left;
+    font-family: DigestiveTwo;
+    font-size: 280px;
+    padding: 0px 0px 30px 30px;
+    color: black;
+    letter-spacing: 5px;
+    color:#BFB3F2;
+}
+
+.titleTwo{
+  float: left;
+  font-family: DigestiveTwo;
+  padding: 15px 0px 30px 20px;
+  color: black;
+  font-size: 75px;
+  letter-spacing: 2px;
+  color:#BFB3F2;
+}
+
+.smallHeader{
+  color: #BFB3F2;
+  font-size: 20px;
+}
+
+.subheading{
+    font-family:  NeueMachina;
+    font-size: 35px;
+    color: ##BFB3F2;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 15px 0px 10px 0px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  color: #BFB3F2;
+  font-size: 20px;
+
+}
+.imageText{
+  text-align:center;
+  padding: 0px 50px 0px 0px;
+  margin-bottom: 1px;
+  text-align: justify;
+  text-justify: inter-word;
+  float:left;
+  border: 0;
+}
+.highlightContent{
+  padding: 0px 60px 50px 110px;
+}
+.aboutParagraph{
+  color: #BFB3F2;
+  font-size: 40px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+  padding: 0px 200px 40px 200px;
+}
+.listOfCreatives{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 33.11%;
+  margin: 0px;
+  display: inline-block;
+  line-height: 255%;
+
+}
+
+.creative{
+  font-family:  "Roboto", sans-serif;
+  padding: 0px;
+  font-size: 30px;
+  color: #BFB3F2;
+  float: initial;
+  letter-spacing: 1px;
+
+}
+
+.letter{
+  font-family: NeueMachina;
+  font-size: 40px;
+  overflow: initial;
+  float: initial;
+  padding-bottom: 10px;
+}
+
+.indexContent{
+  padding: 0px 200px 200px 200px;
+}
